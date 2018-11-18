@@ -1,0 +1,113 @@
+header {
+  text-align: center;
+  background-image: url("images/flat.jpg");
+  background-position: center;
+  background-size: 2500px 1667px;
+}
+
+a {
+  color: white;
+  font-family: "Emblema One";font-size: 25px;
+}
+h1 {
+    font-family: "Emblema One";font-size: 150px;
+    color: orange;
+}
+h2 {
+  text-align: left;
+  font-family: "Emblema One";font-size: 25px;
+  color: orange;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+p {
+  font-family: "Helvetica";font-size: 12px;
+  padding: -200px;
+}
+.photos {
+  float: left;
+  width: 100%;
+  margin-left: 100px;
+}
+
+#navigation {
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 20px 0px 10px;
+}
+
+.navbar {
+  margin-top: 400px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  body {
+    background: green;
+}
+  h1 {
+    font-size: 5px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Helvetica";font-size: 12px;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Emblema One";font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+.column {
+    float: left;
+    width: 40%;
+    margin-left: 80px;
+    padding: 20px;
+    font-family: "Helvetica";font-size: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 500px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-left: 0;
+    }
+}
